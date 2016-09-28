@@ -5,6 +5,10 @@
 	<name>WeixinV3</name>
 
 	<dependency id="cordova-plugin-http" />
+	<preference name="weixin_appid" />
+	<preference name="weixin_secret" />
+	<preference name="weixin_partner_id" />
+	<preference name="weixin_api_key"  />
 	<js-module src="www/weixin.js" name="weixin">
 		<clobbers target="navigator.weixin" />
 	</js-module>
